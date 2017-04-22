@@ -1,0 +1,24 @@
+.Feed-Header{
+  background-color: red;
+}
+#pomaPic{
+  width: 6vh;
+  position: absolute;
+  top: 1.2vh;
+  left: 2vh;
+}
+#profilePic{
+  width: 4vh;
+  position: absolute;
+  top: 2.7vh;
+  right: 5vh;
+}
+#uploadPic{
+  width: 3.5vh;
+  position: absolute;
+  top: 2.85vh;
+  right: 9vh;
+}
+li {
+  display:inline-block;
+}
