@@ -13,6 +13,27 @@ import ActionBar2 from './Actionbar.js';
 import { Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 'react-router'
 
 class Artwork extends Component {
+  constructor(props) {
+  super(props);
+  this.state = {
+    image: 'loading...'
+  }
+    this.loadImageFromServer = this.loadImageFromServer.bind(this);
+  }
+  loadImageFromServer() {
+
+  }
+  loadTitleFromServer() {
+
+  }
+  loadDescriptionFromServer() {
+
+  }
+  componentDidMount() {
+    this.loadImageFromServer();
+    this.loadImageFromServer();
+    this.loadDescriptionFromServer();
+  }
   render() {
     return (
       <div className="Artwork">
