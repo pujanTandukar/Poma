@@ -1,0 +1,36 @@
+#profilePicture{
+  max-width: 7vw;
+  height: 7vw;
+  object-fit: cover;
+  border-radius: 50%;
+  /*border-radius: 5px 20px 5px;*/
+}
+.ActionBar{
+  /*background-color: red;*/
+  list-style-type: none;
+  text-align: center;
+  width: 8vw;
+  margin-left: 10vw;
+  margin-top: 10vw;
+}
+#likeBar{
+  max-width: 5vw;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#dlikeBar{
+  max-width: 5vw;
+}
+#star{
+  max-width: 4vw;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+}
+
+li a {
+    display: block;
+}
