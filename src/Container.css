@@ -1,0 +1,59 @@
+.Info{
+  display: none;
+}
+@media all and (min-width: 1280px) and (max-width: 5000px){
+   .Info{
+     display: block;
+   }
+   .ActionBar{
+     display: block;
+   }
+}
+@media all and (min-width: 1115px) and (max-width: 1279px){
+  .Info{
+    display: block;
+    font-size: 15px;
+  }
+  .ActionBar{
+    display: block;
+  }
+}
+@media all and (min-width: 910px) and (max-width: 1114px){
+  .Info{
+    display: block;
+    font-size: 14px;
+  }
+  .ActioonBar{
+    display: block;
+    width: 100%;
+  }
+}
+@media all and (min-width: 771px) and (max-width: 909px){
+  .Info{
+    display: block;
+    font-size: 13px;
+  }
+  .ActioonBar{
+    display: block;
+    width: 100%;
+  }
+}
+@media all and (min-width: 690px) and (max-width: 770px){
+  .Info{
+    display: block;
+    font-size: 12px;
+  }
+  .ActioonBar2{
+    display: block;
+    width: 100%;
+  }
+}
+@media all and (min-width: 200px) and (max-width: 691px){
+  .Info{
+    display: block;
+    font-size: 11px;
+  }
+  .ActionBar{
+    display: none;
+  }
+}

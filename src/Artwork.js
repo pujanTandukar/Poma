@@ -7,7 +7,8 @@ import profile from '../img/profile.svg';
 import default1 from '../img/default.jpg';
 import painting from '../img/painting.jpg';
 import profilePicture from '../img/flash.png';
-import Info from'./Info.js';
+import Info from './Info.js';
+import ActionBar2 from './Actionbar.js';
 
 import { Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 'react-router'
 
