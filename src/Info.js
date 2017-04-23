@@ -7,9 +7,9 @@ class Info extends Component {
   render() {
     return (
       <div className="Info">
-          <h1> Header </h1>
-          <h2> Description </h2>
-          <h3> Artist Name </h3>
+          <h1>{this.props.header}</h1>
+          <h2>{this.props.description}</h2>
+          <h3>{this.props.artist}</h3>
       </div>
     );
   }

@@ -11,7 +11,7 @@ class ActionBar extends Component {
   render() {
     return (
       <div className="ActionBar">
-        <ul>
+        <ul className="ActioonBar">
           <li id="profilePicture"><a href="profile.html"><img id="profilePicture" src={profilePicture}/></a></li>
           <svg height="50" width="50">
             <polygon points="0,0 50,0 25,30" transform="translate(8, 0) scale(0.4) rotate(180 37 36)" fill="none" strokeWidth="3" stroke="grey"/>

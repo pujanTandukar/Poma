@@ -1,0 +1,17 @@
+h1{
+  font-family: 'Poiret One', sans-serif;
+  display: block;
+  height: auto;
+  margin-top : 15px;
+  margin-bottom: 0;
+}
+h2,h3{
+  font-family: 'Poiret One', sans-serif;
+  display: block;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.Info{
+  text-align: right;
+}
