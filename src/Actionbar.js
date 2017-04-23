@@ -13,14 +13,21 @@ class ActionBar extends Component {
       <div className="ActionBar">
         <ul>
           <li id="profilePicture"><a href="profile.html"><img id="profilePicture" src={profilePicture}/></a></li>
-          <li id="likeBar"><img id="likeBar" src={likeBar}/></li>
-          <li id="dlikeBar"><img id="dlikeBar" src={dlikeBar}/></li>
-          <li id="star"><img id="star" src={star}/></li>
-          <li id="star"><img id="star" src={star}/></li>
-          <li id="star"><img id="star" src={star}/></li>
-          <li id="star"><img id="star" src={star}/></li>
-          <li id="star"><img id="star" src={star}/></li>
-
+          <svg height="50" width="50">
+            <polygon points="0,0 50,0 25,30" transform="translate(8, 0) scale(0.4) rotate(180 37 36)" fill="none" strokeWidth="3" stroke="grey"/>
+          </svg>
+          <svg height="50" width="50">
+            <polygon points="0,0 50,0 25,30" transform="translate(17,15) scale(0.4) rotate(0 37 36)" fill="none" strokeWidth="3" stroke="grey"/>
+          </svg>
+          <svg height="50" width="50">
+              <circle cx="25" cy="25" r="7" stroke="none" stroke-width="0" fill="#efe2e2" />
+          </svg>
+          <svg height="50" width="50">
+              <circle cx="25" cy="25" r="7" stroke="none" stroke-width="0" fill="#efe2e2" />
+          </svg>
+          <svg height="50" width="50">
+              <circle cx="25" cy="25" r="7" stroke="none" stroke-width="0" fill="#746d64" />
+          </svg>
         </ul>
       </div>
     );

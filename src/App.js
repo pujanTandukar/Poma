@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Feed from './Feed.js';
 import Profile from './Profile.js';
-import ViewForm from './Viewform.js';
+import Viewform from './Viewform.js';
 import Actionbar from './Actionbar.js';
 import Info from './Info.js';
 
@@ -13,7 +13,7 @@ class App extends Component {
   render(){
     return(
       <HashRouter>
-        <Route path="/" component={Info} />
+        <Route path="/" component={Actionbar} />
       </HashRouter>
       )
   }
