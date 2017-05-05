@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Artwork from './Artwork.js';
-import Actionbar from './Actionbar.js';
-import './Viewform.css';
+import Artwork from './Artwork';
+import ActionBar from './ActionBar';
+import './Viewframe.css';
 import { Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 'react-router'
 
 class Viewform extends Component {
@@ -10,7 +10,7 @@ class Viewform extends Component {
       <div id="container">
         <div className="Viewform">
             <Artwork />
-            <Actionbar />
+            <ActionBar />
         </div>
       </div>
     );

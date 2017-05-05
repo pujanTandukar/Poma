@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Feed from './Feed.js';
-import Profile from './Profile.js';
-import Viewform from './Viewform.js';
-import Actionbar from './Actionbar.js';
-import Info from './Info.js';
-
-import { HashRouter, Route } from 'react-router-dom';
+import Logo from './logo.svg';
+import Sass from './App.css';
+import Feed from './Feed';
+import Profile from './Profile';
+import Viewframe from './Viewframe';
+import ActionBar from './ActionBar';
+import Info from './Info';
+import {BrowserRouter, Route, Switch, IndexRoute} from 'react-router-dom';
 
 class App extends Component {
   constructor(props) {
@@ -18,9 +17,13 @@ class App extends Component {
   }
   render(){
     return(
-      <HashRouter>
-        <Route path="/" component={Actionbar} />
-      </HashRouter>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path={"/"} component={Viewframe}/>
+          <Route path="/viewframe" component={Viewframe}/>
+          <Route path="/actionbar" component={ActionBar}/>
+        </Switch>
+      </BrowserRouter>
       )
   }
 }
