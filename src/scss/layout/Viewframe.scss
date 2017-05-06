@@ -1,9 +1,10 @@
 .viewframe {
-  width: 75%;
+  width: 50%;
   display: flex;
 }
 
 .viewframe-container {
+  background: $bg-color;
   display: flex;
   justify-content: center;
   align-items: center;

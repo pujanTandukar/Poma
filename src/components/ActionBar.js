@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import ProfilePicture from '../../img/profilePic.jpg';
 import Arrow from './Arrow';
 import Ranking from './Ranking';
-import { Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 'react-router';
 
 class ActionBar extends Component {
   constructor(props) {
@@ -59,9 +57,6 @@ class ActionBar extends Component {
     return (
       <div className="action-bar-container">
         <div className="action-bar">
-          <div className="profile-pic-container">
-              <img className="profile-pic" src={ProfilePicture}/>
-          </div>
           <div className="actions">
             <Arrow lit={this.state.upvote} type="up" voteHandler={this.upvote}/>
             <Arrow lit={this.state.downvote} type="down" voteHandler={this.downvote}/>

@@ -1,17 +1,23 @@
-h1{
-  font-family: 'Poiret One', sans-serif;
-  display: block;
-  height: auto;
-  margin-top : 15px;
-  margin-bottom: 0;
-}
-h2,h3{
-  font-family: 'Poiret One', sans-serif;
-  display: block;
-  height: auto;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.Info{
+.Info {
   text-align: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid white;
+}
+
+.profile-pic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .profile-pic {
+    height: $profile-pic-size;
+    width: $profile-pic-size;
+    object-fit: cover;
+    border-radius: 50%;
+
+  }
 }

@@ -5,18 +5,34 @@
 @import './components/Ranking.scss';
 
 @import './layout/Artwork.scss';
-@import './layout/Profile.scss';
 @import './layout/Viewframe.scss';
 @import './layout/Info.scss';
 @import './layout/NavBar.scss';
-
-
-
 
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+
+  h1{
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    height: auto;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  h2,h3 {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    height: auto;
+    font-size: 1em;
+    color: #e9c3c3;
+    font-weight: 300;
+    margin: 0;
+  }
 
 
   .App {

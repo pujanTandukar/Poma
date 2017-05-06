@@ -4,7 +4,6 @@
 }
 
 .arrow-unlit {
-
   fill: $arrow-color;
 }
 
@@ -13,5 +12,5 @@ polygon {
 }
 
 .arrow-lit {
-  fill: #655977;
+  fill: $arrow-lit-color;
 }

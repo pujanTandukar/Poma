@@ -3,7 +3,7 @@ import Logo from '../../img/logo.svg';
 import Upload from '../../img/upload.svg';
 import Pomalogo from '../../img/poma_logo.svg';
 import Profile from '../../img/profile.svg';
-import Default1 from '../../img/default.jpg';
+import Default1 from '../../img/palms.jpg';
 import Painting from '../../img/painting.jpg';
 import ProfilePicture from '../../img/flash.png';
 import Info from './Info';
@@ -34,7 +34,7 @@ class Artwork extends Component {
     return (
       <div className="artwork">
           <img className="main-picture" src={Default1} />
-          <Info header='Beautiful Dog' description='A cute pup!' artist='Iris Scott' />
+          <Info header='Beautiful Dog' description='A nice walk by the beach.' artist='Iris Donaldson' />
       </div>
     );
   }
