@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
-import Logo from './logo.svg';
-import Sass from './App.css';
-import Feed from './Feed';
-import Profile from './Profile';
-import Viewframe from './Viewframe';
-import ActionBar from './ActionBar';
-import Info from './Info';
-import {BrowserRouter, Route, Switch, IndexRoute} from 'react-router-dom';
+import Viewframe from './components/Viewframe';
+import Feed from './containers/Feed';
+import NavBar from './components/NavBar';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 class App extends Component {
   constructor(props) {
@@ -19,9 +15,9 @@ class App extends Component {
     return(
       <BrowserRouter>
         <Switch>
-          <Route exact path={"/"} component={Viewframe}/>
+          <Route exact path={"/"} component={Feed}/>
           <Route path="/viewframe" component={Viewframe}/>
-          <Route path="/actionbar" component={ActionBar}/>
+          <Route path="/navbar" component={NavBar}/>
         </Switch>
       </BrowserRouter>
       )

@@ -1,0 +1,14 @@
+.ranking {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.ranking-dot-unlit {
+  fill: $ranking-dot-color;
+}
+
+.ranking-dot-lit {
+  fill: #483e5a;
+}

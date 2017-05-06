@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './Artwork.css';
-import upload from '../img/upload.svg';
-import pomalogo from '../img/poma_logo.svg';
-import profile from '../img/profile.svg';
-import default1 from '../img/default.jpg';
-import painting from '../img/painting.jpg';
-import profilePicture from '../img/flash.png';
+import Logo from '../../img/logo.svg';
+import Upload from '../../img/upload.svg';
+import Pomalogo from '../../img/poma_logo.svg';
+import Profile from '../../img/profile.svg';
+import Default1 from '../../img/default.jpg';
+import Painting from '../../img/painting.jpg';
+import ProfilePicture from '../../img/flash.png';
 import Info from './Info';
-import ActionBar2 from './ActionBar';
 
 class Artwork extends Component {
   constructor(props) {
@@ -34,8 +32,8 @@ class Artwork extends Component {
   }
   render() {
     return (
-      <div className="Artwork">
-          <img className="MainPicture" src={default1} />
+      <div className="artwork">
+          <img className="main-picture" src={Default1} />
           <Info header='Beautiful Dog' description='A cute pup!' artist='Iris Scott' />
       </div>
     );

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './Info.css';
+import logo from '../../img/logo.svg';
 import { Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 'react-router'
 
 class Info extends Component {

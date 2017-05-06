@@ -1,0 +1,17 @@
+.arrow-unlit:hover {
+  fill: #f7f5fb;
+  cursor: pointer;
+}
+
+.arrow-unlit {
+
+  fill: $arrow-color;
+}
+
+polygon {
+  transition: all 0.1s ease-in-out;
+}
+
+.arrow-lit {
+  fill: #655977;
+}

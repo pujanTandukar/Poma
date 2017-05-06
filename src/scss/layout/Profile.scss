@@ -1,0 +1,13 @@
+.profile-pic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .profile-pic {
+    height: $profile-pic-size;
+    width: $profile-pic-size;
+    object-fit: cover;
+    border-radius: 50%;
+
+  }
+}

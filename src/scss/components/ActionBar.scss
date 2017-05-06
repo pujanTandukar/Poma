@@ -1,0 +1,37 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    /*background: red;*/
+}
+
+li a {
+    display: block;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.action-bar-dots {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.action-bar{
+
+}
+
+.action-bar-container {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}

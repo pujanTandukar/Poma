@@ -1,0 +1,39 @@
+.nav-bar {
+  height: 10vh;
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  background: white;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 5px 0px #b8afb5;
+}
+
+.upload-pic {
+  height: 70%;
+}
+
+.profile-pic {
+  height: 70%;
+}
+
+.nav-bar-header {
+  height: 70%;
+  width: 75%;
+  display: flex;
+}
+
+.logo {
+height: 100%;
+}
+
+.title {
+  height: 100%;
+  display: flex;
+  font-size: 2em;
+  font-weight: 900;
+  align-items: flex-end;
+  color: #56566d;
+  margin-left: 2%;
+}
