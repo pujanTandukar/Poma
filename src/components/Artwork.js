@@ -34,7 +34,7 @@ class Artwork extends Component {
     return (
       <div className="artwork">
           <img className="main-picture" src={Default1} />
-          <Info header='Beautiful Dog' description='A nice walk by the beach.' artist='Iris Donaldson' />
+          <Info title={this.props.title} description={this.props.description} artist={this.props.artist} />
       </div>
     );
   }

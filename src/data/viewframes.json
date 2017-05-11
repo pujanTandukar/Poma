@@ -1,8 +1,50 @@
 [
 {
   "artwork":"palms.jpg",
-  "title":"San Diego",
-  "subtitle":"A nice walk by the beach.",
-  "creator":"Evan"
+  "title":"San Diego Sunshine",
+  "description":"A nice walk by the beach.",
+  "artist":"Evan"
+},
+{
+  "artwork":"painting.jpg",
+  "title":"Self Portrait",
+  "description":"Sneak peak of my latest work.",
+  "artist":"Elizabeth"
+},
+{
+  "artwork":"painting.jpg",
+  "title":"Self Portrait",
+  "description":"Sneak peak of my latest work.",
+  "artist":"Elizabeth"
+},
+{
+  "artwork":"painting.jpg",
+  "title":"Self Portrait",
+  "description":"Sneak peak of my latest work.",
+  "artist":"Elizabeth"
+},
+{
+  "artwork":"painting.jpg",
+  "title":"Self Portrait",
+  "description":"Sneak peak of my latest work.",
+  "artist":"Elizabeth"
+},
+{
+  "artwork":"painting.jpg",
+  "title":"Self Portrait",
+  "description":"Sneak peak of my latest work.",
+  "artist":"Elizabeth"
+},
+{
+  "artwork":"painting.jpg",
+  "title":"Self Portrait",
+  "description":"Sneak peak of my latest work.",
+  "artist":"Elizabeth"
+},
+{
+  "artwork":"painting.jpg",
+  "title":"Self Portrait",
+  "description":"Sneak peak of my latest work.",
+  "artist":"Elizabeth"
 }
 ]

@@ -11,7 +11,7 @@ class Info extends Component {
         </div>
 
         <div className="label">
-          <h1>{this.props.header}</h1>
+          <h1>{this.props.title}</h1>
           <h2>{this.props.description}</h2>
           <h3>{this.props.artist}</h3>
         </div>

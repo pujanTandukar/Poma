@@ -10,9 +10,12 @@ class NavBar extends Component {
           <img src={logo} className="logo" alt="logo" />
           <h2 className="title">Poma</h2>
         </div>
+        <div className="nav-bar-search-bar-container">
+          <input className="nav-bar-search-bar"/>
+        </div>
         <div className="nav-bar-items">
-          <img className="upload-pic" src={require("../../img/upload.svg")}/>
-          <img className="profile-pic" src={require("../../img/profile.svg")}/>
+          <img className="nav-upload" src={require("../../img/upload.svg")}/>
+          <img className="nav-profile" src={require("../../img/profile.svg")}/>
         </div>
       </div>
       {this.props.children}

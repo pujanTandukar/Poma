@@ -14,3 +14,9 @@ polygon {
 .arrow-lit {
   fill: $arrow-lit-color;
 }
+
+
+.arrow-container {
+  transform: rotate3d(1,0,0,90deg);
+  @include transition($prop, $duration, $easing);
+}

@@ -4,20 +4,24 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 25px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid white;
-}
+  padding-bottom: 25px;
+  border-bottom: 1px solid white;
+  transition: padding-top 0.25s ease 0s, padding-bottom 0.25s ease 0.25s;
 
-.profile-pic-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-  .profile-pic {
-    height: $profile-pic-size;
-    width: $profile-pic-size;
-    object-fit: cover;
-    border-radius: 50%;
+  .profile-pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    .profile-pic {
+      height: $profile-pic-size;
+      width: $profile-pic-size;
+      object-fit: cover;
+      border-radius: 50%;
+      transform: rotate3d(1,0,0,0);
+      @include transition($prop, $duration, $easing);
+
+    }
   }
 }

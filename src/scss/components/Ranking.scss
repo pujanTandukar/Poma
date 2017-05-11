@@ -5,10 +5,22 @@
   margin-top: 50px;
 }
 
+.ranking:hover .ranking-dot-unlit {
+  transform: scale(0.0);
+}
+
+.ranking:hover .ranking-dot-lit {
+  transform: scale(0.0);
+}
+
 .ranking-dot-unlit {
+  @include transition($prop, $duration, $easing);
   fill: $ranking-dot-color;
+  transform: scale(1.5);
 }
 
 .ranking-dot-lit {
-  fill: #483e5a;
+  @include transition-with-delay($prop, $duration, $easing, 1.0s);
+  fill: $ranking-dot-lit-color;
+  transform: scale(1.5);
 }

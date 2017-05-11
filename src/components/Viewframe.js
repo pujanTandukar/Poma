@@ -8,7 +8,7 @@ class Viewframe extends Component {
     return (
       <div className="viewframe-container">
         <div className="viewframe">
-            <Artwork />
+            <Artwork title={this.props.title} description={this.props.description} artist={this.props.artist}/>
             <ActionBar />
         </div>
       </div>

@@ -4,16 +4,16 @@
   align-items: center;
   flex-direction: column;
   margin-top: 10px;
-}
 
-.action-bar-dots {
-  display: flex;
-  flex-direction: column;
 }
 
 
-.action-bar{
+.action-bar {
 
+}
+
+.action-bar:hover .arrow-container {
+  transform: rotate3d(1,0,0,0);
 }
 
 .action-bar-container {

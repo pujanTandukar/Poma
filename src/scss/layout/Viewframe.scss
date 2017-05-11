@@ -1,6 +1,9 @@
 .viewframe {
   width: 50%;
   display: flex;
+
+
+
 }
 
 .viewframe-container {
@@ -9,4 +12,11 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+
+.viewframe:hover .Info {
+  border-bottom-width: 50%;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }

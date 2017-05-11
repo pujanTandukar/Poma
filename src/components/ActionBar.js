@@ -35,25 +35,6 @@ class ActionBar extends Component {
   }
   render() {
 
-    const emptyDot = "#f7f3f3";
-    const filledDot = "#ffa6a6";
-
-    const height = 40;
-    const width = 100;
-
-    const emptyColor = "#ffd9d8";
-    const strokeWidth = 0;
-    const filledColor = "#655977";
-
-
-    var color;
-
-    if(this.state.upvote == true) {
-      color = filledColor;
-    } else {
-      color = emptyColor;
-    }
-
     return (
       <div className="action-bar-container">
         <div className="action-bar">

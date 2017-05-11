@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NavBar from '../components/NavBar';
 import Viewframe from '../components/Viewframe';
+import ViewframeData from '../data/viewframes.json';
 
 class Feed extends Component {
   render() {
@@ -8,13 +9,9 @@ class Feed extends Component {
       <div className="feed-container">
         <div className="feed">
           <NavBar>
-            <Viewframe />
-            <Viewframe />
-            <Viewframe />
-            <Viewframe />
-            <Viewframe />
-            <Viewframe />
-            <Viewframe />
+            {ViewframeData.map((viewframe, i) => {
+              return <Viewframe title={viewframe.title} description={viewframe.description} artist={this.props.artist}/>
+            })}
           </NavBar>
         </div>
       </div>
